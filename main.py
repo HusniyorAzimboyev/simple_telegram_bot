@@ -4,7 +4,7 @@ import sqlite3
 from contextlib import closing
 from crud_oop import BaseCRUD
 
-token = '7477170282:AAG86MRRcCI5fwmZKvmNkxruTf2SLacGGNY'
+token = 'your token here'
 
 def show_info(update,context):
     with closing(sqlite3.connect("husniyors_bot_database.db")) as connection:
